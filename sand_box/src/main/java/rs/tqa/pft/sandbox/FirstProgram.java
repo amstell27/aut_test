@@ -1,4 +1,4 @@
-package ru.stqa.pft.sandbox;
+package rs.tqa.pft.sandbox;
 
 public class FirstProgram {
 

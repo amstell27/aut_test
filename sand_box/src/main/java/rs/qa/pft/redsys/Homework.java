@@ -10,7 +10,7 @@ public class Homework {
 
   public static void main(String[] args) {
 
-    distance(25,36,49,64);
+   distance(25,36,49,64);
   }
 
   public static void distance (double a, double b, double c, double d) {

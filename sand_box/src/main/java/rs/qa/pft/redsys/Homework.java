@@ -10,13 +10,8 @@ public class Homework {
 
   public static void main(String[] args) {
 
-   distance(25,36,49,64);
+   Distance q = new Distance(25,36,49,64);
+    System.out.println("Расстояние между двумя точками " + "A(" + q.a + "," + q.c + ")" + " и B(" + q.b + "," + q.d + ") равно " + q.distance());
   }
 
-  public static void distance (double a, double b, double c, double d) {
-
-    double p = Math.pow((a-b),2) + Math.pow((c-d),2);
-    double q = Math.sqrt(p);
-    System.out.println("Расстояние между точками = " + q);
-  }
 }

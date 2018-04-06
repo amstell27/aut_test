@@ -10,7 +10,7 @@ public class DistanceTests {
 
   @Test
   public void testArea(){
-    Distance s = new Distance(4,4,4,4);
-    Assert.assertEquals(s.distance(), 0.0);
+    Distance s = new Distance(25,36,49,64);
+    Assert.assertEquals(s.distance(), 18.601075237738275);
   }
 }

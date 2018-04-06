@@ -11,7 +11,7 @@ public class Homework {
   public static void main(String[] args) {
 
    Distance q = new Distance(25,36,49,64);
-    System.out.println("Расстояние между двумя точками " + "A(" + q.a + "," + q.c + ")" + " и B(" + q.b + "," + q.d + ") равно " + q.distance());
+   System.out.println("Расстояние между двумя точками " + "A(" + q.a + "," + q.c + ")" + " и B(" + q.b + "," + q.d + ") равно " + q.distance());
   }
 
 }
